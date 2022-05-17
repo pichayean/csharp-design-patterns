@@ -7,4 +7,5 @@ AbstractFactory factory2 = new ConcreteFactory2();
 Client client2 = new Client(factory2);
 client2.Run();
 // Wait for user input
+
 Console.ReadKey();
